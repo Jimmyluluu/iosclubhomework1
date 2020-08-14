@@ -13,6 +13,8 @@
 		5843885E24E568880019F814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5843885D24E568880019F814 /* Assets.xcassets */; };
 		5843886124E568880019F814 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5843886024E568880019F814 /* Preview Assets.xcassets */; };
 		5843886424E568880019F814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5843886224E568880019F814 /* LaunchScreen.storyboard */; };
+		5843886C24E584000019F814 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5843886B24E584000019F814 /* SwiftUIView.swift */; };
+		5843887024E58BF10019F814 /* SwiftUIView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5843886F24E58BF10019F814 /* SwiftUIView2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5843886024E568880019F814 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5843886324E568880019F814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5843886524E568880019F814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5843886B24E584000019F814 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		5843886F24E58BF10019F814 /* SwiftUIView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				5843885624E568870019F814 /* luu0711 */,
-				5843885524E568870019F814 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +54,7 @@
 				5843885424E568870019F814 /* luu0711.app */,
 			);
 			name = Products;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		5843885624E568870019F814 /* luu0711 */ = {
@@ -59,6 +63,8 @@
 				5843885724E568870019F814 /* AppDelegate.swift */,
 				5843885924E568870019F814 /* SceneDelegate.swift */,
 				5843885B24E568870019F814 /* ContentView.swift */,
+				5843886B24E584000019F814 /* SwiftUIView.swift */,
+				5843886F24E58BF10019F814 /* SwiftUIView2.swift */,
 				5843885D24E568880019F814 /* Assets.xcassets */,
 				5843886224E568880019F814 /* LaunchScreen.storyboard */,
 				5843886524E568880019F814 /* Info.plist */,
@@ -71,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				5843886024E568880019F814 /* Preview Assets.xcassets */,
+				5843885524E568870019F814 /* Products */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -148,6 +155,8 @@
 			files = (
 				5843885824E568870019F814 /* AppDelegate.swift in Sources */,
 				5843885A24E568870019F814 /* SceneDelegate.swift in Sources */,
+				5843887024E58BF10019F814 /* SwiftUIView2.swift in Sources */,
+				5843886C24E584000019F814 /* SwiftUIView.swift in Sources */,
 				5843885C24E568870019F814 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
